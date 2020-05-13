@@ -1,0 +1,46 @@
+body{
+    background-color: lavender;
+}
+.navbar{
+    padding-right:60px;
+    font-family: 'Montserrat', serif;
+    font-weight: 300;
+}
+.nav-item{
+    padding:0 22px 0 22px;
+}
+.main{
+    text-align: left;
+    width:60%;
+    margin:auto;
+    padding-top: 50px;
+}
+h1{
+    font-family: 'Quattrocento', serif;
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+    text-align: left;
+}
+img{
+    width:350px;
+    margin-left:20px;
+}
+p{
+    font-family: 'Montserrat', serif;
+    font-weight: 300;
+}
+/* footer{
+    font-family: 'Montserrat', serif;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    } */
+    
+@media (max-width:900px) {
+    .main{
+        width:100%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,55 @@
+body{
+    background-color: lavender;
+}
+.navbar{
+    padding-right:60px;
+    font-family: 'Montserrat', serif;
+    font-weight: 300;
+}
+.nav-item{
+    padding:0 22px 0 22px;
+}
+h1{
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    padding-top:20px;
+    font-size: 60px;
+    color: rgb(46, 45, 45);
+}
+p{
+    font-family: 'Montserrat', serif;
+    font-weight: 300;
+}
+h5{
+    font-family:'Quattrocento', serif;
+    padding-top:10px;
+}
+.app-graphic{
+    width:300px;
+}
+.container-fluid{
+    width:80%;
+    margin-top:80px;
+}
+#text{
+    border-right: solid 8px white;
+    padding-right:0;
+}
+/* footer{
+    font-family: 'Montserrat', serif;
+    font-size: 16px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center; */
+    }
+
+ @media (max-width:900px) {
+     
+     #text{
+         border-right:none;
+         margin-bottom: 20px;
+     }
+  
+    }
