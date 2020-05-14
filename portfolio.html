@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Portfolio</title>
 
-    <!--CSS Stylesheets-->
+    <!--CSS Stylesheets-->    
+    <link rel="stylesheet" href="CSS/resets.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/stylesheet3.css">
 
@@ -54,14 +55,14 @@
 
     <section class="row">
 
-      <div class="col-md-4" id="text">
+      <div class="col-md-4 col-xs" id="text">
         <h1>Here's a few apps I've worked on</h1>
       </div>
        
-      <div class="col-md-4 col-xs" id="wine" >
+      <div class="col-md-4 col-xs apps" id="wine" >
         <img class="app-graphic" src="./Assets/wine.jpg" alt="four wine glass vectors">
           <h5>Wine'd Down</h5>
-            <div class="row">
+            <div class="row bottom-app">
               <div class="col col-xs">
                 <img class="app-graphic" src="./Assets/MovieNight.jpg" alt="pop corn and movie vector">
                     <h5>Movie Night</h5>
@@ -69,10 +70,10 @@
             </div>
       </div>
 
-      <div class="col-lg-4 col-xs">
+      <div class="col-md-4 col-xs apps">
         <img class="app-graphic" src="./Assets/travel.jpg" alt="airplane and suitcase vector">
           <h5>Jet Set</h5>
-            <div class="row">
+            <div class="row bottom-app">
               <div class="col col-xs">
                 <img class="app-graphic" src="./Assets/pet.jpg" alt="house pets vector">
                     <h5>Pet Diaries</h5>
@@ -82,11 +83,12 @@
 
     </section>
   </div>
-  
-<!-- sticky footer with copyright -->
-<!-- <footer >
-  <span>© Copyright 2020 Dominika Perkowska</span>
-</footer>   -->
+
+  <footer>
+    <p class="container-fluid footer">
+       © Copyright 2020 Dominika Perkowska
+     </p>
+  </footer>
 
 </body>
 </html>

@@ -41,20 +41,24 @@ form{
     font-weight: bolder;
     color:gray;
 }
-/* footer{
+.container-fluid{
+    position:fixed;
+}
+.footer {
     font-family: 'Montserrat', serif;
     font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
     position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center; */
-    }
-@media (max-width:900px) {
-
+    bottom: -20px;
+    min-height: 75px;
+    clear: both;
+}
+@media screen and (max-width: 700px) {
     img{
       position: static;
       transform: rotate(0);
       padding-top: 30px;
+      padding-bottom: 100px;
     }
   } 

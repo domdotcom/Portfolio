@@ -13,7 +13,7 @@ h1{
     font-family: "Cinzel", serif;
     font-weight: 400;
     padding-top:20px;
-    font-size: 60px;
+    font-size: 56px;
     color: rgb(46, 45, 45);
 }
 p{
@@ -31,25 +31,34 @@ h5{
     width:80%;
     margin-top:80px;
 }
-#text{
-    border-right: solid 8px white;
-    padding-right:0;
+.bottom-app{
+    padding-top:20px;
 }
-/* footer{
+#text{
+    border-right: solid 6px white;
+    padding: 0;
+}
+.footer {
     font-family: 'Montserrat', serif;
     font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
     position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center; */
-    }
+    bottom: -20px;
+    min-height: 75px;
+    clear: both;
+}
+@media  screen and  (max-width:900px) {
 
- @media (max-width:900px) {
-     
-     #text{
-         border-right:none;
-         margin-bottom: 20px;
-     }
-  
+    #text{
+        border-right:none;
+        border-bottom: solid 6px white;
+        text-align: center;
     }
+    #wine{
+        padding-top:25px;
+    }
+    .apps{
+        margin:auto;
+    }
+  } 

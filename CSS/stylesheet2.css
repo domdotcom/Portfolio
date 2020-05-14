@@ -29,15 +29,16 @@ p{
     font-family: 'Montserrat', serif;
     font-weight: 300;
 }
-/* footer{
+.footer {
     font-family: 'Montserrat', serif;
     font-size: 16px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     text-align: center;
-    } */
-    
+    padding-top: 20px;
+    position: fixed;
+    bottom: -20px;
+    min-height: 75px;
+    clear: both;
+}
 @media (max-width:900px) {
     .main{
         width:100%;
