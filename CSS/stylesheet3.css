@@ -44,11 +44,22 @@ h5{
     border-right: solid 6px white;
     padding: 0;
 }
-/* sticky footer */
+/* sticky footer not using bootstrap class */
+.wrapper{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between
+}
+html{ 
+    position: relative;
+    min-height: 100%;
+} 
 footer {
     font-family: 'Montserrat', serif;
     font-size: 16px;
     text-align: center;
+    padding-bottom: 50px;
     }
 /* smaller screen size */
 @media  screen and  (max-width:900px) {
