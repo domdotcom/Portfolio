@@ -23,6 +23,7 @@ img{
     right: 10%;
     top: 25%;
 }
+/* form styling */
 form{
     margin-top: 50px;
 }
@@ -41,19 +42,13 @@ form{
     font-weight: bolder;
     color:gray;
 }
-.container-fluid{
-    position:fixed;
-}
-.footer {
+/* footer styling */
+footer {
     font-family: 'Montserrat', serif;
     font-size: 16px;
     text-align: center;
-    padding-top: 20px;
-    position: fixed;
-    bottom: -20px;
-    min-height: 75px;
-    clear: both;
-}
+    }
+/* smaller screens */
 @media screen and (max-width: 700px) {
     img{
       position: static;

@@ -1,6 +1,7 @@
 body{
     background-color: lavender;
 }
+/* nav bar */
 .navbar{
     padding-right:60px;
     font-family: 'Montserrat', serif;
@@ -9,6 +10,7 @@ body{
 .nav-item{
     padding:0 22px 0 22px;
 }
+/* Bio paragraphs */
 .main{
     text-align: left;
     width:60%;
@@ -29,16 +31,19 @@ p{
     font-family: 'Montserrat', serif;
     font-weight: 300;
 }
-.footer {
+/* footer */
+footer {
     font-family: 'Montserrat', serif;
     font-size: 16px;
     text-align: center;
-    padding-top: 20px;
-    position: fixed;
-    bottom: -20px;
-    min-height: 75px;
-    clear: both;
+    position: absolute;
+    }
+html{
+    position:relative;
+    min-height: 100%;
 }
+
+/* smaller size screens */
 @media (max-width:900px) {
     .main{
         width:100%;

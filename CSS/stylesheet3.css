@@ -1,6 +1,7 @@
 body{
     background-color: lavender;
 }
+/* nav bar  */
 .navbar{
     padding-right:60px;
     font-family: 'Montserrat', serif;
@@ -9,6 +10,7 @@ body{
 .nav-item{
     padding:0 22px 0 22px;
 }
+/* h elements */
 h1{
     font-family: "Cinzel", serif;
     font-weight: 400;
@@ -24,12 +26,16 @@ h5{
     font-family:'Quattrocento', serif;
     padding-top:10px;
 }
+/* images of the app and heading */
 .app-graphic{
     width:300px;
 }
 .container-fluid{
     width:80%;
-    margin-top:80px;
+    padding-top:80px;
+    margin-left:auto;
+    margin-right:auto;
+
 }
 .bottom-app{
     padding-top:20px;
@@ -38,16 +44,13 @@ h5{
     border-right: solid 6px white;
     padding: 0;
 }
-.footer {
+/* sticky footer */
+footer {
     font-family: 'Montserrat', serif;
     font-size: 16px;
     text-align: center;
-    padding-top: 20px;
-    position: fixed;
-    bottom: -20px;
-    min-height: 75px;
-    clear: both;
-}
+    }
+/* smaller screen size */
 @media  screen and  (max-width:900px) {
 
     #text{
